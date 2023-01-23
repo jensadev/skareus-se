@@ -3,7 +3,9 @@
   "version": "1.0.3",
   "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
   "scripts": {
-    "build": "npx @11ty/eleventy && sass sass:_includes/assets/css/",
+    "build:eleventy": "eleventy",
+    "build:sass": "sass  --no-source-map sass:_includes/assets/css",
+    "build": "npm-run-all build:sass --parallel build:*",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve & sass --watch sass:_includes/assets/css/",
     "debug": "DEBUG=* npx @11ty/eleventy"
@@ -33,6 +35,7 @@
     "clean-css": "^5.3.1",
     "html-minifier": "^4.0.0",
     "modern-css-reset": "^1.4.0",
+    "npm-run-all": "^4.1.5",
     "sass": "^1.57.1",
     "uglify-js": "^3.17.4"
   }
