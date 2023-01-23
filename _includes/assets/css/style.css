@@ -1,0 +1,273 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Normal */
+@font-face {
+  font-family: "News Cycle";
+  font-style: normal;
+  font-weight: 400;
+  src: local("News Cycle Regular"), local("NewsCycle-Regular"), url("/fonts/NewsCycle-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+/* Bold */
+@font-face {
+  font-family: "News Cycle";
+  font-style: bold;
+  font-weight: 700;
+  src: local("News Cycle Bold"), local("NewsCycle-Bold"), url("/fonts/NewsCycle-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+/* type */
+body {
+  font-family: "News Cycle", sans-serif;
+  font-feature-settings: "onum" 1;
+  font-size: var(--step-0);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(var(--color-primary));
+  font-family: "News Cycle", sans-serif;
+  font-variant-numeric: lining-nums;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-size: var(--step-3);
+}
+
+h2 {
+  font-size: var(--step-2);
+}
+
+h3 {
+  font-size: var(--step-1);
+}
+
+.lead {
+  font-family: "News Cycle", sans-serif;
+}
+
+.display-4 {
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.display-4 small {
+  font-size: 1.4rem;
+  color: rgba(var(--color-primary), 0.8);
+}
+
+.brand {
+  font-weight: 700;
+  font-size: var(--step-4);
+  letter-spacing: 0.1em;
+  font-style: normal;
+}
+
+:root {
+  --fbc-blue-60: #0060df;
+  --fbc-blue-70: #003eaa;
+  --fbc-gray-20: #ededf0;
+  --fbc-light-gray: #f0f0f4;
+  --fbc-white: #ffffff;
+  --fbc-transition: all 0.15s cubic-bezier(0.07, 0.95, 0, 1);
+  --fbc-borders: 1px solid #ededf0;
+  --fbc-primary-text: #15141a;
+  --fbc-secondary-text: #5b5b66;
+  --fbc-font-size: 13px;
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-gradient: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0)
+  );
+  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,5,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --color-primary: 68, 140, 202;
+  --color-primary-darker: 42, 100, 150;
+  --color-dark: 33, 37, 41;
+  --color-light: 248, 249, 250;
+  --step--5: clamp(0.41rem, calc(0.47rem + -0.07vw), 0.45rem);
+  --step--4: clamp(0.51rem, calc(0.55rem + -0.05vw), 0.54rem);
+  --step--3: clamp(0.64rem, calc(0.66rem + -0.02vw), 0.65rem);
+  --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem);
+  --step--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1rem);
+  --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+  --step-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
+  --step-2: clamp(1.62rem, calc(1.5rem + 0.58vw), 1.95rem);
+  --step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
+  --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
+  --step-5: clamp(2.8rem, calc(2.45rem + 1.77vw), 3.82rem);
+}
+
+body {
+  margin: 0;
+  background-color: rgb(var(--color-light));
+  color: rgb(var(--color-dark));
+  display: grid;
+  grid-template-areas: "header" "nav" "intro" "main" "footer";
+  grid-template-rows: 4rem auto auto auto auto;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  body {
+    grid-template-areas: "header header" "intro main" "footer footer";
+    grid-template-rows: 4rem auto auto;
+    grid-template-columns: 20ch 1fr;
+  }
+}
+@supports (font-variant-numeric: oldstyle-nums) {
+  body {
+    font-feature-settings: normal;
+    font-variant-numeric: oldstyle-nums;
+  }
+}
+
+main {
+  grid-area: main;
+}
+
+.container {
+  width: min(100vw - 3rem, var(--container-max, 80ch));
+  margin-inline: auto;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.intro {
+  grid-area: intro;
+  place-self: start;
+}
+
+nav {
+  grid-area: nav;
+}
+@media (min-width: 768px) {
+  nav {
+    grid-area: intro;
+    place-self: end;
+  }
+}
+
+.btn-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+.btn-toggle svg {
+  fill: currentColor;
+}
+@media (min-width: 768px) {
+  .btn-toggle {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

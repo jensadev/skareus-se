@@ -1,10 +1,10 @@
 ---
 layout: layouts/blog.njk
-title: Projekt och utställningar
+title: Utställningar och projekt
 metaDescription: A sample Blog page listing various posts and authors.
 date: 2017-01-01
 permalink: /projekt/index.html
 eleventyNavigation:
-  key: projekt och utställningar
+  key: utställningar och projekt
   order: 1
 ---
