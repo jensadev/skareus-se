@@ -71,6 +71,51 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1364,22,1.414,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+:root {
+  --step--1: clamp(0.83rem, calc(0.79rem + 0.21vw), 0.97rem);
+  --step-0: clamp(1rem, calc(0.89rem + 0.57vw), 1.38rem);
+  --step-1: clamp(1.2rem, calc(0.97rem + 1.14vw), 1.94rem);
+  --step-2: clamp(1.44rem, calc(1.04rem + 2.01vw), 2.75rem);
+  --step-3: clamp(1.73rem, calc(1.07rem + 3.31vw), 3.89rem);
+  --step-4: clamp(2.07rem, calc(1.02rem + 5.25vw), 5.5rem);
+  --step-5: clamp(2.49rem, calc(0.87rem + 8.1vw), 7.77rem);
+  --space-3xs: clamp(0.25rem, calc(0.21rem + 0.19vw), 0.38rem);
+  --space-2xs: clamp(0.5rem, calc(0.44rem + 0.29vw), 0.69rem);
+  --space-xs: clamp(0.75rem, calc(0.65rem + 0.48vw), 1.06rem);
+  --space-s: clamp(1rem, calc(0.89rem + 0.57vw), 1.38rem);
+  --space-m: clamp(1.5rem, calc(1.33rem + 0.86vw), 2.06rem);
+  --space-l: clamp(2rem, calc(1.77rem + 1.15vw), 2.75rem);
+  --space-xl: clamp(3rem, calc(2.66rem + 1.72vw), 4.13rem);
+  --space-2xl: clamp(4rem, calc(3.54rem + 2.3vw), 5.5rem);
+  --space-3xl: clamp(6rem, calc(5.31rem + 3.45vw), 8.25rem);
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, calc(0.12rem + 0.67vw), 0.69rem);
+  --space-2xs-xs: clamp(0.5rem, calc(0.33rem + 0.86vw), 1.06rem);
+  --space-xs-s: clamp(0.75rem, calc(0.56rem + 0.96vw), 1.38rem);
+  --space-s-m: clamp(1rem, calc(0.67rem + 1.63vw), 2.06rem);
+  --space-m-l: clamp(1.5rem, calc(1.12rem + 1.92vw), 2.75rem);
+  --space-l-xl: clamp(2rem, calc(1.35rem + 3.26vw), 4.13rem);
+  --space-xl-2xl: clamp(3rem, calc(2.23rem + 3.83vw), 5.5rem);
+  --space-2xl-3xl: clamp(4rem, calc(2.7rem + 6.51vw), 8.25rem);
+  /* Custom pairs */
+  --space-s-l: clamp(1rem, calc(0.46rem + 2.68vw), 2.75rem);
+  /* config */
+  --font-base: "News Cycle", sans-serif;
+  --tracking: 0.05ch;
+  --tracking-s: 0.075ch;
+  --leading: 1.5;
+  --border-radius: var(--step-0);
+  --gutter: var(--space-s-m);
+  --min: 320px;
+  --max: 1364px;
+  /* colors */
+  --color-primary: #448cca;
+  --color-primary-darker: #2b6597;
+  --color-dark: #212529;
+  --color-light: #f8f9fa;
+}
+
 /* Normal */
 @font-face {
   font-family: "News Cycle";
@@ -87,23 +132,23 @@ select {
   src: local("News Cycle Bold"), local("NewsCycle-Bold"), url("/fonts/NewsCycle-Bold.ttf") format("truetype");
   font-display: swap;
 }
-/* type */
 body {
-  font-family: "News Cycle", sans-serif;
-  font-feature-settings: "onum" 1;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  font-family: var(--font-base);
   font-size: var(--step-0);
-  font-weight: 400;
-  line-height: 1.5;
+  line-height: var(--leading);
+  letter-spacing: var(--tracking);
+  font-feature-settings: "onum" 1;
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(var(--color-primary));
-  font-family: "News Cycle", sans-serif;
   font-variant-numeric: lining-nums;
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  line-height: 1;
+  max-width: 20ch;
 }
 
 h1 {
@@ -118,153 +163,171 @@ h3 {
   font-size: var(--step-1);
 }
 
-.lead {
-  font-family: "News Cycle", sans-serif;
+p,
+li,
+blockquote:not([class]) {
+  max-width: 50ch;
 }
 
-.display-4 {
-  font-size: 2rem;
-  line-height: 1.1;
-  letter-spacing: 0.1em;
-  font-weight: 700;
+blockquote:not([class]) {
+  font-size: var(--step-1);
+  font-family: var(--font-serif);
 }
 
-.display-4 small {
-  font-size: 1.4rem;
-  color: rgba(var(--color-primary), 0.8);
+blockquote:not([class]) p:last-of-type {
+  font-family: var(--font-base);
+  font-size: var(--step-0);
+  font-weight: normal;
 }
 
-.brand {
-  font-weight: 700;
-  font-size: var(--step-4);
-  letter-spacing: 0.1em;
-  font-style: normal;
+svg {
+  height: 2ex;
+  width: auto;
+  flex: none;
 }
 
-:root {
-  --fbc-blue-60: #0060df;
-  --fbc-blue-70: #003eaa;
-  --fbc-gray-20: #ededf0;
-  --fbc-light-gray: #f0f0f4;
-  --fbc-white: #ffffff;
-  --fbc-transition: all 0.15s cubic-bezier(0.07, 0.95, 0, 1);
-  --fbc-borders: 1px solid #ededf0;
-  --fbc-primary-text: #15141a;
-  --fbc-secondary-text: #5b5b66;
-  --fbc-font-size: 13px;
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-gradient: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0)
-  );
-  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,5,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-  --color-primary: 68, 140, 202;
-  --color-primary-darker: 42, 100, 150;
-  --color-dark: 33, 37, 41;
-  --color-light: 248, 249, 250;
-  --step--5: clamp(0.41rem, calc(0.47rem + -0.07vw), 0.45rem);
-  --step--4: clamp(0.51rem, calc(0.55rem + -0.05vw), 0.54rem);
-  --step--3: clamp(0.64rem, calc(0.66rem + -0.02vw), 0.65rem);
-  --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem);
-  --step--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1rem);
-  --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
-  --step-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
-  --step-2: clamp(1.62rem, calc(1.5rem + 0.58vw), 1.95rem);
-  --step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
-  --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
-  --step-5: clamp(2.8rem, calc(2.45rem + 1.77vw), 3.82rem);
+[role=list] {
+  padding: 0;
 }
 
-body {
-  margin: 0;
-  background-color: rgb(var(--color-light));
-  color: rgb(var(--color-dark));
+a {
+  color: currentColor;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:focus {
+  outline: 2px solid;
+  outline-offset: 0.3ch;
+}
+
+:target {
+  scoll-margin-top: 2ex;
+}
+
+main:focus {
+  outline: none;
+}
+
+::selection {
+  background: var(--color-dark);
+  color: var(--color-light);
+}
+
+/* 
+SIDEBAR
+More info: https://every-layout.dev/layouts/sidebar/
+A layout that allows you to have a flexible main content area
+and a "fixed" width sidebar that sits on the left or right.
+If there is not enough viewport space to fit both the sidebar
+width *and* the main content minimum width, they will stack
+on top of each other
+
+CUSTOM PROPERTIES AND CONFIGURATION
+--gutter (var(--space-size-1)): This defines the space
+between the sidebar and main content.
+
+--sidebar-target-width (20rem): How large the sidebar should be
+
+--sidebar-content-min-width(50%): The minimum size of the main content area
+
+EXCEPTIONS
+.sidebar[data-direction='rtl']: flips the sidebar to be on the right 
+*/
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-s-l));
+}
+
+.sidebar > :first-child {
+  flex-basis: var(--sidebar-target-width, 20rem);
+  flex-grow: 1;
+}
+
+.sidebar > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: var(--sidebar-content-min-width, 50%);
+}
+
+/* 
+  A flipped version where the sidebar is on the right
+  */
+.sidebar[data-direction=rtl] {
+  flex-direction: row-reverse;
+}
+
+.grid {
   display: grid;
-  grid-template-areas: "header" "nav" "intro" "main" "footer";
-  grid-template-rows: 4rem auto auto auto auto;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 768px) {
-  body {
-    grid-template-areas: "header header" "intro main" "footer footer";
-    grid-template-rows: 4rem auto auto;
-    grid-template-columns: 20ch 1fr;
-  }
-}
-@supports (font-variant-numeric: oldstyle-nums) {
-  body {
-    font-feature-settings: normal;
-    font-variant-numeric: oldstyle-nums;
-  }
+  grid-template-columns: repeat(var(--grid-placement, auto-fill), minmax(var(--grid-min-item-size, 16rem), 1fr));
+  gap: var(--gutter, var(--space-s-l));
 }
 
-main {
-  grid-area: main;
+.grid[data-layout="50-50"] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 50vw, 26rem);
+}
+
+.grid[data-rows=masonry] {
+  grid-template-rows: masonry;
+  align-items: start;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+.region {
+  padding-top: var(--region-space, var(--space-l-xl));
+  padding-bottom: var(--region-space, var(--space-l-xl));
+}
+
+.wrapper {
+  max-width: var(--wrapper-max-width, 85rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  position: relative;
 }
 
 .container {
-  width: min(100vw - 3rem, var(--container-max, 80ch));
+  width: min(var(--container-max-width, 80ch), 100vw - var(--gutter) * 2);
   margin-inline: auto;
 }
 
-header {
-  grid-area: header;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.color-primary {
+  color: var(--color-primary);
 }
 
-footer {
-  grid-area: footer;
+.card {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: var(--space-m-l);
+  border-radius: var(--border-radius);
+  max-width: unset;
 }
 
-.intro {
-  grid-area: intro;
-  place-self: start;
+.features {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 33%, 20rem);
+  --gutter: var(--space-l-xl);
+  --flow-space: var(--space-s);
+  text-align: center;
 }
 
-nav {
-  grid-area: nav;
+.site-head {
+  --region-space: var(--space-s-m);
+  color: var(--color-primary);
 }
-@media (min-width: 768px) {
-  nav {
-    grid-area: intro;
-    place-self: end;
-  }
+.site-head a {
+  text-decoration: none;
+}
+.site-head a:hover {
+  color: var(--color-primary-darker);
 }
 
-.btn-toggle {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: block;
-}
-.btn-toggle svg {
-  fill: currentColor;
-}
-@media (min-width: 768px) {
-  .btn-toggle {
-    display: none;
-  }
-}
+/*# sourceMappingURL=style.css.map */

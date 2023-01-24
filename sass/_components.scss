@@ -1,0 +1,27 @@
+.card {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: var(--space-m-l);
+    border-radius: var(--border-radius);
+    max-width: unset;
+}
+
+.features {
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem, 33%, 20rem);
+    --gutter: var(--space-l-xl);
+    --flow-space: var(--space-s);
+
+    text-align: center;
+}
+
+.site-head {
+    --region-space: var(--space-s-m);
+    color: var(--color-primary);
+    a {
+        text-decoration: none;
+        &:hover {
+            color: var(--color-primary-darker);
+        }
+    }
+}

@@ -1,0 +1,19 @@
+/* Normal */
+@font-face {
+    font-family: 'News Cycle';
+    font-style: normal;
+    font-weight: 400;
+    src: local('News Cycle Regular'), local('NewsCycle-Regular'),
+        url('/fonts/NewsCycle-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'News Cycle';
+    font-style: bold;
+    font-weight: 700;
+    src: local('News Cycle Bold'), local('NewsCycle-Bold'),
+        url('/fonts/NewsCycle-Bold.ttf') format('truetype');
+    font-display: swap;
+}
