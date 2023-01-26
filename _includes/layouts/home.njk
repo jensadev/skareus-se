@@ -7,22 +7,12 @@
             <h1><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
         </div>
     </header>
-    <article class="sidebar">
+    <div class="sidebar">
         <div>
-            <p class="lead" itemscope itemtype="http://schema.org/Person">
-                Född <span itemprop="birthDate">1952 </span>i
-                Stockholm, bosatt i <span itemprop="homeLocation">Köpmanholmen</span>.
-                Verksam som <span itemprop="jobTitle">konstnär och illustratör </span>
-                sedan <time datetime="1980">1980</time>. Disputerade i pedagogiskt
-                arbete <time datetime="2007">2007</time> och har arbetat som docent vid
-                <a rel="noopener" href="https://www.umu.se/institutionen-for-estetiska-amnen/" title="Länk till www.umu.se"
-                    target="_blank">
-                    Institutionen för estetiska ämnen
-                </a>, Umeå universitet.
-            </p>
+            {% include "components/intro.njk" %}
             {% include "components/nav.njk" %}
         </div>
         <img src="/static/img/eva.jpg" alt="Porträtt av Eva">
-    </article>
+    </div>
 </main>
 {% endblock %}

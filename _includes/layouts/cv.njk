@@ -1,11 +1,25 @@
 ---
 layout: layouts/base.njk
-section: cv
+section: CV
 permalink: /cv/index.html
 ---
-<h1>{{ title }}</h1>
 
-{{ layoutContent | safe }}
-
-{% set postslist = collections.post %}
-{% include "components/postslist.njk" %}
+{% block content %}
+<main class="flow container">
+    <header class="site-head">
+        <div class="region">
+            <h1><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+        </div>
+    </header>
+    <div class="sidebar">
+        <div>
+            {% include "components/intro.njk" %}
+            {% include "components/nav.njk" %}
+        </div>
+        <div class="flow">
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+        </div>
+    </div>
+</main>
+{% endblock %}

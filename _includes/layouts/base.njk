@@ -4,7 +4,9 @@
 {% include "components/head.njk" %}
 
 <body>
-    {% block content %}{% endblock %}
+    {% block content %}
+        {{ content | safe }}
+    {% endblock %}
 
     {% include "components/footer.njk" %}
 
