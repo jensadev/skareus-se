@@ -6,18 +6,13 @@ permalink: /books/index.html
 
 {% block content %}
 <main class="flow container">
-    <header class="site-head">
-        <div class="region">
-            <h1><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-        </div>
-    </header>
+    {% include "components/sitehead.njk" %}
     <div class="sidebar">
         <div>
             {% include "components/intro.njk" %}
             {% include "components/nav.njk" %}
         </div>
         <div class="flow">
-            <h1>{{ title }}</h1>
             {{ content | safe }}
         </div>
     </div>
