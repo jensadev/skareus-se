@@ -6,28 +6,53 @@
             <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif %}>{{
                 entry.title }}</a>
             {% if entry.url==page.url %}
-                {% set postslist = collections[page.fileSlug] %}
-                {% if page.fileSlug == "books" %}
-                    <!-- fix code for books nav -->
-                {% endif %}
-                <ul role="list">
-                    {% for post in postslist %}
-                    <li>
-                        <a href="{{ post.url | url }}">
-                            {% if post.data.year %}
-                            <time datetime="{{ post.data.year }}">
-                                {{ post.data.year }}
-                            </time>
-                            {% endif %}
-                            {% if post.data.title %}
+            {% set postslist = collections[page.fileSlug] %}
+            {% if page.fileSlug == "books" %}
+            {% set postslist = [
+            {
+                url: "#Text och illustration",
+                data: {
+                    title: "Text och illustration"
+                }
+            },
+            {
+                url: "#Grafisk form",
+                data: {
+                  title: "Grafisk form"
+                }
+            },
+            {
+                url: "#Datorprogram för barn med funktionsnedsättning",
+                data: {
+                    title: "Datorprogram för barn med funktionsnedsättning"
+                }
+            },
+            {
+                url: "#Akademiskt arbete",
+                data: {
+                    title: "Akademiskt arbete"
+                }
+            }
+            ] %}
+            {% endif %}
+            <ul role="list">
+                {% for post in postslist %}
+                <li>
+                    <a href="{{ post.url | url }}">
+                        {% if post.data.year %}
+                        <time datetime="{{ post.data.year }}">
+                            {{ post.data.year }}
+                        </time>
+                        {% endif %}
+                        {% if post.data.title %}
                             {{ post.data.title }}
-                            {% else %}
+                        {% else %}
                             Untitled
-                            {% endif %}
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
             {% endif %}
         </li>
         {%- endfor %}
