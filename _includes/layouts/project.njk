@@ -1,21 +1,7 @@
 ---
 layout: layouts/base.njk
-section: Utställningar och projekt
-permalink: /utstallningar-och-projekt/index.html
+section: page
 ---
+<h1>{{ title }}</h1>
 
-{% block content %}
-<main class="flow container">
-    {% include "components/sitehead.njk" %}
-    <div class="sidebar">
-        <div>
-            {% include "components/intro.njk" %}
-            {% include "components/nav.njk" %}
-        </div>
-        <div class="flow">
-            {% set postslist = collections.post %}
-            {% include "components/postslist.njk" %}
-        </div>
-    </div>
-</main>
-{% endblock %}
+{{ layoutContent | safe }}

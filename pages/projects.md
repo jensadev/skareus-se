@@ -1,5 +1,5 @@
 ---
-layout: layouts/project.njk
+layout: layouts/projects.njk
 title: Utställningar och projekt
 metaDescription: A sample Blog page listing various posts and authors.
 date: 2017-01-01

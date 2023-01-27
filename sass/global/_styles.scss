@@ -57,10 +57,11 @@ svg {
 
 a {
     color: currentColor;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+    color: var(--color-primary-darker);
 }
 
 :focus {

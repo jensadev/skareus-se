@@ -1,10 +1,34 @@
 <nav>
     {% set navPages = collections.all | eleventyNavigation %}
-    <ul role="list">
+    <ul class="nav-list" role="list">
         {%- for entry in navPages %}
         <li>
             <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif %}>{{
                 entry.title }}</a>
+            {% if entry.url==page.url %}
+                {% set postslist = collections[page.fileSlug] %}
+                {% if page.fileSlug == "books" %}
+                    <!-- fix code for books nav -->
+                {% endif %}
+                <ul role="list">
+                    {% for post in postslist %}
+                    <li>
+                        <a href="{{ post.url | url }}">
+                            {% if post.data.year %}
+                            <time datetime="{{ post.data.year }}">
+                                {{ post.data.year }}
+                            </time>
+                            {% endif %}
+                            {% if post.data.title %}
+                            {{ post.data.title }}
+                            {% else %}
+                            Untitled
+                            {% endif %}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
         </li>
         {%- endfor %}
     </ul>
