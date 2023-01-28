@@ -8,5 +8,3 @@ eleventyNavigation:
   key: affischer
   order: 2
 ---
-
-![Emotioner och skandinaviskt genus](/static/img/posters/aff_emostor.jpg "Emotioner och skandinaviskt genus")

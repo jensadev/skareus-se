@@ -4,10 +4,34 @@ const UglifyJS = require('uglify-js');
 const htmlmin = require('html-minifier');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [300, 600, 'auto'],
+    formats: ["webp", "jpeg"],
+    outputDir: "./_site/static/img/",
+    urlPath: "/static/img/",
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
 module.exports = function(eleventyConfig) {
 
     // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+    // Or add them individually
+    eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
     // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
     // layout aliases! Say you have a bunch of existing content using
@@ -87,7 +111,7 @@ module.exports = function(eleventyConfig) {
     // Don't process folders with static assets e.g. images
     eleventyConfig.addPassthroughCopy('favicon.ico');
     eleventyConfig.addPassthroughCopy('static/img');
-    eleventyConfig.addPassthroughCopy('static/pdf');    
+    eleventyConfig.addPassthroughCopy('static/pdf');
     eleventyConfig.addPassthroughCopy('admin/');
     eleventyConfig.addPassthroughCopy('_includes/assets/css/inline.css');
     eleventyConfig.addPassthroughCopy({'_includes/assets/fonts/': 'fonts'});
@@ -100,7 +124,13 @@ module.exports = function(eleventyConfig) {
         linkify: true
     };
     let opts = {
-        permalink: false
+        permalink: false,
+        slugify: (s) =>
+        s
+            .trim()
+            .toLowerCase()
+            .replace(/[\s+~\/]/g, '-')
+            .replace(/[().`,%·'"!?¿:@*]/g, '')
     };
 
     eleventyConfig.setLibrary('md', markdownIt(options)
@@ -120,10 +150,10 @@ module.exports = function(eleventyConfig) {
         htmlTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
         dir: {
-        input: '.',
-        includes: '_includes',
-        data: '_data',
-        output: '_site'
+            input: '.',
+            includes: '_includes',
+            data: '_data',
+            output: '_site'
         }
     };
 };

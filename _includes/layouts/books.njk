@@ -12,9 +12,11 @@ permalink: /books/index.html
             {% include "components/intro.njk" %}
             {% include "components/nav.njk" %}
         </div>
-        <div class="flow">
+        <article class="flow">
+            <h2>{{ title }}</h2>
+            <p>{{ metaDescription }}</p>
             {{ content | safe }}
-        </div>
+        </article>
     </div>
 </main>
 {% endblock %}

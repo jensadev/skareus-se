@@ -110,8 +110,8 @@ select {
   --min: 320px;
   --max: 1364px;
   /* colors */
-  --color-primary: #448cca;
-  --color-primary-darker: #2b6597;
+  --color-primary: hsl(208, 56%, 43%);
+  --color-primary-darker: hsl(208, 56%, 35%);
   --color-dark: #212529;
   --color-light: #f8f9fa;
 }
@@ -216,6 +216,11 @@ main:focus {
   color: var(--color-light);
 }
 
+img {
+  height: 100%;
+  border-radius: var(--border-radius);
+}
+
 /* 
 SIDEBAR
 More info: https://every-layout.dev/layouts/sidebar/
@@ -287,8 +292,7 @@ EXCEPTIONS
 
 .wrapper {
   max-width: var(--wrapper-max-width, 85rem);
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
   position: relative;
@@ -351,6 +355,13 @@ EXCEPTIONS
   max-height: var(--mh);
 }
 
+@media (min-width: 40rem) {
+  .nav {
+    position: sticky;
+    max-width: 20rem;
+    top: var(--space-s);
+  }
+}
 .nav-list {
   color: var(--color-primary);
   font-size: var(--step-1);
@@ -366,10 +377,73 @@ EXCEPTIONS
   text-decoration: none;
 }
 
-.hero-img {
-  aspect-ratio: 4/3;
-  object-fit: cover;
-  border-radius: var(--border-radius);
+.posters-grid {
+  --min: 22ch;
+  --gap: var(--space-s-m);
+  display: grid;
+  grid-gap: var(--gap);
+  /* min() with 100% prevents overflow
+  in extra narrow spaces */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+.posters-grid img {
+  height: auto;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: #212529;
+  background-color: rgba(33, 37, 41, 0.8);
+}
+.modal-content {
+  animation: zoom 0.4s ease-in-out;
+}
+.modal-content picture {
+  display: grid;
+  place-content: center;
+}
+.modal-content figure {
+  color: var(--color-light);
+  position: relative;
+  margin: var(--space-s) 0;
+}
+.modal-content figcaption {
+  width: 100%;
+  text-align: center;
+  font-size: var(--step-1);
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-light);
+  font-size: var(--step-3);
+  margin-top: var(--space-xs3);
+  margin-right: var(--space-s);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+.btn-close:hover {
+  color: var(--color-primary);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,13 +12,19 @@ permalink: /posters/index.html
             {% include "components/intro.njk" %}
             {% include "components/nav.njk" %}
         </div>
-        <div class="flow">
+        <article class="flow">
             <h2>{{ title }}</h2>
             <p>{{ metaDescription }}</p>
             <div class="posters-grid">
-                {{ content | safe }}
+                {% image "./static/img/posters/aff_emostor.jpg", "Emotioner och skandinaviskt genus", "(min-width: 22ch) 50vw, 100vw" %}
+                {% image "./static/img/posters/aff_femstor.jpg", "Emotioner och skandinaviskt genus", "(min-width: 22ch) 50vw, 100vw" %}
+                {% image "./static/img/posters/aff_emostor.jpg", "Emotioner och skandinaviskt genus", "(min-width: 22ch) 50vw, 100vw" %}
+                {% image "./static/img/posters/aff_3stor.jpg", "Emotioner och skandinaviskt genus", "(min-width: 22ch) 50vw, 100vw" %}
+                {% image "./static/img/posters/aff_4stor.jpg", "Emotioner och skandinaviskt genus", "(min-width: 22ch) 50vw, 100vw" %}
+                {% image "./static/img/posters/aff_holmon.jpg", "Emotioner och skandinaviskt genus", "(min-width: 22ch) 50vw, 100vw" %}
             </div>
-        </div>
+        </article>
     </div>
 </main>
+{% include "components/modal.njk" %}
 {% endblock %}
