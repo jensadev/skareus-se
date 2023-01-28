@@ -105,7 +105,7 @@ select {
   --tracking: 0.05ch;
   --tracking-s: 0.075ch;
   --leading: 1.5;
-  --border-radius: var(--step-0);
+  --border-radius: var(--space-3xs);
   --gutter: var(--space-s-m);
   --min: 320px;
   --max: 1364px;
@@ -191,8 +191,7 @@ svg {
 }
 
 a {
-  color: currentColor;
-  text-decoration: none;
+  color: var(--color-primary);
 }
 
 a:hover {
@@ -340,7 +339,7 @@ EXCEPTIONS
 .post-list h3 a:hover {
   color: var(--color-primary-darker);
 }
-.post-list p:has(img) {
+.post-list p:has(> img) {
   display: grid;
   place-content: center;
 }
@@ -362,6 +361,15 @@ EXCEPTIONS
 }
 .nav-list li::first-letter {
   text-transform: uppercase;
+}
+.nav-list a {
+  text-decoration: none;
+}
+
+.hero-img {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--border-radius);
 }
 
 /*# sourceMappingURL=style.css.map */
