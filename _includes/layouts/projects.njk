@@ -12,8 +12,9 @@ permalink: /utstallningar-och-projekt/index.html
             {% include "components/intro.njk" %}
             {% include "components/nav.njk" %}
         </div>
-        <div class="content-list flow">
+        <div class="flow">
             <h2>{{ title }}</h2>
+            <p>{{ metaDescription }}</p>
             {% set postslist = collections.projects %}
             {% include "components/postslist.njk" %}
         </div>

@@ -82,3 +82,8 @@ main:focus {
     background: var(--color-dark);
     color: var(--color-light);
 }
+
+img {
+    height: 100%;
+    border-radius: var(--border-radius);
+}

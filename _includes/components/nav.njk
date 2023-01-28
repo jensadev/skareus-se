@@ -1,4 +1,4 @@
-<nav>
+<nav class="nav">
     {% set navPages = collections.all | eleventyNavigation %}
     <ul class="nav-list" role="list">
         {%- for entry in navPages %}
@@ -10,25 +10,25 @@
             {% if page.fileSlug == "books" %}
             {% set postslist = [
             {
-                url: "#Text och illustration",
+                url: "#text-och-illustration",
                 data: {
                     title: "Text och illustration"
                 }
             },
             {
-                url: "#Grafisk form",
+                url: "#grafisk-form",
                 data: {
                   title: "Grafisk form"
                 }
             },
             {
-                url: "#Datorprogram för barn med funktionsnedsättning",
+                url: "#datorprogram-för-barn-med-funktionsvariationer",
                 data: {
-                    title: "Datorprogram för barn med funktionsnedsättning"
+                    title: "Datorprogram för barn med funktionsvariationer"
                 }
             },
             {
-                url: "#Akademiskt arbete",
+                url: "#akademiskt-arbete",
                 data: {
                     title: "Akademiskt arbete"
                 }
