@@ -10,8 +10,8 @@ tags:
 
 Läs mer om utställningen här, [tidningsartikel från ÖA, pdf format](/static/pdf/art4öa.pdf).
 
-- ![Det hänger på konsten](/static/img/projects/hanger/4_2.jpg)
-- ![Det hänger på konsten](/static/img/projects/hanger/4_3.jpg)
-- ![Det hänger på konsten](/static/img/projects/hanger/4_4.jpg)
-- ![Det hänger på konsten](/static/img/projects/hanger/4_5.jpg)
-- ![Det hänger på konsten](/static/img/projects/hanger/4_6_1.jpg)
+- ![Foto tvättstugan](/static/img/projects/hanger/4_2.jpg)
+- ![Foto tvättstugan](/static/img/projects/hanger/4_3.jpg)
+- ![Foto tvättstugan](/static/img/projects/hanger/4_4.jpg)
+- ![Bild](/static/img/projects/hanger/4_5.jpg)
+- ![Bild](/static/img/projects/hanger/4_6_1.jpg)

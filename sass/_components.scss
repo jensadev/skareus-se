@@ -162,7 +162,7 @@
 
 .project {
     ul {
-        &:has(li>p>img) {
+        &:has(li>p>img, li>img) {
             padding: 0;
             list-style: none;
             --min: 20ch;

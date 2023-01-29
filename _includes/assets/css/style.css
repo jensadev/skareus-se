@@ -460,7 +460,7 @@ EXCEPTIONS
   place-content: center;
 }
 
-.project ul:has(li > p > img) {
+.project ul:has(li > p > img, li > img) {
   padding: 0;
   list-style: none;
   --min: 20ch;
@@ -469,7 +469,7 @@ EXCEPTIONS
   grid-gap: var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
 }
-.project ul:has(li > p > img) img {
+.project ul:has(li > p > img, li > img) img {
   cursor: pointer;
 }
 
