@@ -19,5 +19,10 @@
         {{ post.data.summary }}
     </p>
     {% endif %}
+    {% if post.data.feature-image %}
+    <figure>
+        <img src="{{ post.data.feature-image }}" alt="{{ post.data.title }}">
+    </figure>
+    {% endif %}
     </article>
 {% endfor %}

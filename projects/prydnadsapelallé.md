@@ -7,5 +7,3 @@ summary: "Sommaren 2020 planterade föreningen Köpmanholmens fabriksträdgård 
 tags:
   - "2020"
 ---
-
-![Köpmanholmens fabriksträdgård en prydnadsapelallé](/img/apelalle.jpeg "Prydnadsapelallé")

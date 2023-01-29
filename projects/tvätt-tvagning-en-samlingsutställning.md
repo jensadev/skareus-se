@@ -10,6 +10,5 @@ feature-image: /static/img/bild5.jpg
 tags:
   - projects
 ---
-![Montage av reklambild från 1934]()
 
 Montage av reklambild från 1934 samt foto av tvättstugan i Köpmanholmen idag. På huset är ett foto av kvinnor som tvättar i tvättstuganmonterat. 110 x 165 cm, bestruken textil. Eva Skåreus 2021
