@@ -2,6 +2,19 @@
 layout: layouts/base.njk
 section: page
 ---
-<h1>{{ title }}</h1>
-
-{{ layoutContent | safe }}
+{% block content %}
+<main class="flow container">
+    {% include "components/sitehead.njk" %}
+    <div class="sidebar">
+        <div>
+            {% include "components/intro.njk" %}
+            {% include "components/nav.njk" %}
+        </div>
+        <article class="flow">
+            <h2>{{ title }}</h2>
+            <p>{{ metaDescription }}</p>
+            {{ content | safe }}
+        </article>
+    </div>
+</main>
+{% endblock %}
