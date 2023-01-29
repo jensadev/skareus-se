@@ -8,4 +8,4 @@ tags:
   - "2019"
 ---
 
-Läs mer om utställningen här, [tidningsartikel i pdf format](/static/pdf/öa-artikel.pdf).
+Läs mer om utställningen här, [tidningsartikel i pdf format](/pdf/öa-artikel.pdf).

@@ -8,4 +8,4 @@ tags:
   - "2020"
 ---
 
-![Köpmanholmens fabriksträdgård en prydnadsapelallé](/static/img/apelalle.jpeg "Prydnadsapelallé")
+![Köpmanholmens fabriksträdgård en prydnadsapelallé](/img/apelalle.jpeg "Prydnadsapelallé")

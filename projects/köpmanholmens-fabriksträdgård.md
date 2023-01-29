@@ -9,7 +9,7 @@ summary: Fabriksträdgården är en permanent konstinstallation av växter, stoc
 tags:
   - projects
 ---
-![Fabriksträdgården](/static/img/fabrikstrad.jpg)
+![Fabriksträdgården](/img/fabrikstrad.jpg)
 
 Idén om Fabriksträdgården har vuxit fram under flera år och de skisser som idag finns omfattar delar av en besöksträdgård som sträcker sig utmed Bruksvägen, från Djuphamnsvägen till gamla Byskillnadsvägen ungefär mitt emot Tvättstugans västra gavel. Genom fabriksträdgården vill vi väcka nyfikenhet bland de som promenerar genom området, tankar om den verksamhet som här bedrevs och förståelse för den. Livet som fabriksarbetare var både farligt och giftigt, men samtidigt var fabriken förutsättningen för alla människor som bodde här och att Köpmanholmen byggdes och växte.
 
@@ -21,4 +21,4 @@ Området vi hyr av Örnsköldsvik kommun är ca 350 meter långt och drygt 10 me
 
 Läs mer om projektet på [Köpmanholmens fabriksträdgård](https://blog.skareus.se).
 
-![Översiktsbild av området](/static/img/flybild.jpg)
+![Översiktsbild av området](/img/flybild.jpg)
