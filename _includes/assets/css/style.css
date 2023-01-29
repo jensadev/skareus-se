@@ -350,19 +350,6 @@ EXCEPTIONS
   display: grid;
   place-content: center;
 }
-.post-list ul:has(li > img) {
-  padding: 0;
-  list-style: none;
-  --min: 20ch;
-  --gap: var(--space-s-m);
-  display: grid;
-  grid-gap: var(--gap);
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
-}
-.post-list ul:has(li > img) img {
-  aspect-ratio: 1/1;
-  object-fit: cover;
-}
 
 @media (min-width: 40rem) {
   .nav {
@@ -460,6 +447,10 @@ EXCEPTIONS
   place-content: center;
 }
 
+.project ul {
+  list-style: none;
+  padding: 0;
+}
 .project ul:has(li > p > img, li > img) {
   padding: 0;
   list-style: none;
