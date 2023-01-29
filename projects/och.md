@@ -9,7 +9,11 @@ feature-image: /static/img/och.jpg
 tags:
   - projects
 ---
+- ![clowner](/static(img/projects/clowner/bal1typ.jpg)
+- ![clowner](/static(img/projects/clowner/balans3.jpg)
+- ![clowner](/static(img/projects/clowner/balans3.jpg)
+- ![clowner](/static(img/projects/clowner/balans4.jpg)
+- ![clowner](/static(img/projects/clowner/balans5.jpg)
+- ![clowner](/static(img/projects/clowner/balans6.jpg)
+- ![clowner](/static(img/projects/clowner/balans22.jpg)
 
-
-* !\[clowner](/static(img/projects/clowner/bal1typ.jpg)
-*
