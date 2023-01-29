@@ -10,8 +10,8 @@ async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
     widths: [300, 600, 'auto'],
     formats: ["webp", "jpeg"],
-    outputDir: "./_site/static/img/",
-    urlPath: "/static/img/",
+    outputDir: "./_site/img/",
+    urlPath: "/img/",
   });
 
   let imageAttributes = {
@@ -110,8 +110,8 @@ module.exports = function(eleventyConfig) {
 
     // Don't process folders with static assets e.g. images
     eleventyConfig.addPassthroughCopy('favicon.ico');
-    eleventyConfig.addPassthroughCopy('static/img');
-    eleventyConfig.addPassthroughCopy('static/pdf');
+    eleventyConfig.addPassthroughCopy({'static/img': 'img'});
+    eleventyConfig.addPassthroughCopy({'static/pdf': 'pdf'});
     eleventyConfig.addPassthroughCopy('admin/');
     eleventyConfig.addPassthroughCopy('_includes/assets/css/inline.css');
     eleventyConfig.addPassthroughCopy({'_includes/assets/fonts/': 'fonts'});
