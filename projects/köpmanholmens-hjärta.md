@@ -16,3 +16,5 @@ Den 2–3 juli bjöd jag inKöpmanholmsborna att hjälpa till med planteringen. 
 Tankarna bakom projektet var att uppmärksamma industriområdet genom ett platsspecifikt konstverk och därigenom skapa någon form av återupprättelse, att göra platsen synligt igen, men på ett annat sätt än tidigare. Fram till mitten av 1980-talet var området tätt bebyggt med hus och industribyggnader som tillhörde bruket. Sedan revs allt och idag är det ett ingemansland, tomt och övergivet. För gamla Köpmanholmsbor verkar området mer eller mindre som en spökby, ”där stod cisternerna och där var förmansbostaden, Konsum 1:an och huggeriet”, medan för besökaren utan historisk förankring är det en flack slätt med utsikt över fjärden. Men det är också Köpmanholmens gamla hjärta, den plats där arbetet låg och den plats som utgjorde motorn i samhällsbygget.
 
 Projektet genomfördes med stöd från Nätterlundsstiftelsen, MIVA och Bjästa Handelsträdgård.
+
+![](/static/img/projects/heart/heart1_stor.jpg)
