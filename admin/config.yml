@@ -11,7 +11,7 @@ backend:
 # Uncomment below to enable a link to your published site in the header bar of Netlify CMS
 # site_url: https://eleventy-netlify-boilerplate.netlify.app/
 
-media_folder: "img" # Media files will be stored in the repo under images/uploads
+media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
 collections:
   # Our blog posts
@@ -25,6 +25,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Year", name: "year", widget: "string" }
       - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Feature image", name: "feature-image", widget: "image", "choose_url": true }
       - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
