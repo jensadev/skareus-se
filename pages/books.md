@@ -8,8 +8,6 @@ eleventyNavigation:
   key: böcker
   order: 3
 ---
-
-
 ## Text och illustration
 
 * Guldlock och de tre björnarna, SIH Läromedel, folksaga, akvareller till flanosaga, ca 12 st, 1988/2008
@@ -60,7 +58,6 @@ eleventyNavigation:
 * I sinnenas värld - syn, SIH Läromedel, Sahle´n, Berglund, omslag, ca 18 tuschill. 1997
 * De röda trosorna, SIH Läromedel, Holmberg, omslag, 16 akvareller, 1997
 * Love och Annabell, SIH Läromedel, Kral, omslag, 14 akvareller, 1997  
-
 * Jorden hon älskade, Ord och visor förlag, Thunqvist, omslag, 1998
 * I sinnenas värld - rörelse, kroppsuppfattning, SIH Läromedel, Feldtman, omslag, 18 tuschill. 1998
 * Två berättelser om Love, SIH Läromedel, Kral, omslag, 15 akvareller, 1998
@@ -82,6 +79,7 @@ eleventyNavigation:
 * Reflekterande forskarhandledning, Studentlitteratur, Appel, Bergenheim, omslag, 2005
 * Forskningsarbete pågår, Fakulteten för lärarutbildning, red. P-O Erixon, omslag, 2005
 * Möten och Medieringar, Fakulteten för lärarutbildning, Marner, omslag, 2005
+* Tvätt & Tvagning - om tvättstugor i Västernorrland, 2020
 
 ## Grafisk form
 
@@ -97,10 +95,8 @@ eleventyNavigation:
 
 * Tidskrift för litteraturvetenskap, Insti. för kultur- och medievet., Umeå univers, 6 omslag 2008
 * Tidskriften Hemslöjden, trasdockan Lilli, uppslag, sammanlagt 12 nummer 1998-99, tuschteckningar ca 8st/nr = ca 96 st
-
 * Tidskrift för lärarutbildning och forskning, grafisk form, omslag, 2000
 * Tidskrift för lärarutbildning och forskning, illustrationer i nummer 2–3, 4 2000, nr 3 2001, nr 1–2 2002, nr 2 2003, nr 1 2004, nr 1–2 2005 collage/fotografier/teckningar ca 6-8 st per nr = ca 50 bilder
-
 * Logotyp, Sävar kommundelsnämnd, 1993
 * Logotyp, Postrodden Holmön - Björköby, 1996
 * Logotyp, Ö-miljö Holmön, 1997
@@ -133,7 +129,6 @@ eleventyNavigation:
 * måla med jojje, Datorteket Umeå / SIH Läromedel, 1996 - 97
 * små fingrar, Leni Björklund i samarbete med Datorteket Umeå, 2000
 
-
 ## Akademiskt arbete
 
 * Kropp och själv: om att uttrycka, utforska och utvecklas genom bildterapi : dokumentation av en utställning, NRA, Umeå, 2007
@@ -146,4 +141,3 @@ eleventyNavigation:
 * På Spaning efter spår i tid och rum inom projektet Rock Art in Sápmi. Utvärdering av Konstpedagogisk verksamhet inom Konstfrämjandet Västerbotten. 2014
 * Bilder i forskning: visuella metoder, konstbaserd forskning & fallstudier. Tilde skriftserie, Umeå universitet 2015
 * Estetiska ämnen & genus. Gleerups 2018
-
