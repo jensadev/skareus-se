@@ -5,7 +5,7 @@ year: "2011"
 summary: Under sommaren 2011 anlade jag tillsammans med vänner och
   Köpmanholmsbor en platsspecifik konstinstallation, en dahliarabatt i form av
   ett hjärta i Köpmanholmens gamla fabriksområde.
-feature-image: /static/img/heart2_stor.jpg
+featureimage: /static/img/heart2_stor.jpg
 tags:
   - projects
 ---
@@ -17,10 +17,10 @@ Tankarna bakom projektet var att uppmärksamma industriområdet genom ett platss
 
 Projektet genomfördes med stöd från Nätterlundsstiftelsen, MIVA och Bjästa Handelsträdgård.
 
-- ![](/static/img/projects/heart/heartskiss_stor.jpg
-- ![](/static/img/projects/heart/heart1_stor.jpg)
+- ![Skiss hjärtat](/static/img/projects/heart/heartskiss_stor.jpg)
+- ![Fotografi hjärtat](/static/img/projects/heart/heart1_stor.jpg)
 
-- ![](/static/img/projects/heart/plant1_stor.jpg)
+- ![Konstruktion av hjärtat](/static/img/projects/heart/plant1_stor.jpg)
 
-- ![](/static/img/projects/heart/plant2_stor.jpg)
-- ![](/static/img/projects/heart/plant3_stor.jpg)
+- ![Plantering av hjärtat](/static/img/projects/heart/plant2_stor.jpg)
+- ![Plantering av hjärtat](/static/img/projects/heart/plant3_stor.jpg)

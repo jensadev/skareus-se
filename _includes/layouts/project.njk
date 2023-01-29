@@ -10,18 +10,19 @@ section: page
             {% include "components/intro.njk" %}
             {% include "components/nav.njk" %}
         </div>
-        <article class="flow">
+        <article class="project flow">
             <h2>{{ title }}</h2>
             {% if summary %}
                 <p>{{ summary }}</p>
             {% endif %}
             {% if featureimage %}
-                <figure>
+                <div class="feature">
                     <img src="{{ featureimage }}" alt="{{ title }}">
-                </figure>
+                </div>
             {% endif %}
             {{ content | safe }}
         </article>
     </div>
 </main>
+{% include "components/modal.njk" %}
 {% endblock %}

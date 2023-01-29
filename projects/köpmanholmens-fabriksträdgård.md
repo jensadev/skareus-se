@@ -21,4 +21,4 @@ Området vi hyr av Örnsköldsvik kommun är ca 350 meter långt och drygt 10 me
 
 Läs mer om projektet på [Köpmanholmens fabriksträdgård](https://blog.skareus.se).
 
-![Översiktsbild av området](/img/flybild.jpg)
+![Översiktsbild av området](/static/img/flybild.jpg)

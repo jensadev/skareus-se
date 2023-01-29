@@ -42,7 +42,6 @@
         place-content: center;
     }
     ul {
-
         &:has(li>img) {
             padding: 0;
             list-style: none;
@@ -112,7 +111,7 @@
     &-content {
         animation: zoom 0.4s ease-in-out;
 
-        picture {
+        picture, figure {
             display: grid;
             place-content: center;
         }
@@ -153,5 +152,29 @@
     z-index: 100;
     &:hover {
         color: var(--color-primary);
+    }
+}
+
+.feature {
+    display: grid;
+    place-content: center;
+}
+
+.project {
+    ul {
+        &:has(li>p>img) {
+            padding: 0;
+            list-style: none;
+            --min: 20ch;
+            --gap: var(--space-s-m);
+        
+            display: grid;
+            grid-gap: var(--gap);
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+        
+            img {
+                cursor: pointer;
+            }
+        }
     }
 }

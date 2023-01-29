@@ -8,7 +8,7 @@ summary: En dag i juli 2013, när sommaren var som bäst och solen värmde gott,
   Norge, medan andra bodde nästgårds och tog tillfället i akt att ta sig ner på
   kajen eller åka ut i skärgården en varm sommardag. Man är i transit, ska bara
   genom, på väg bort, någon annanstans...
-feature-image: /static/img/projects/transit/kur_stor.jpg
+featureimage: /static/img/projects/transit/kur_stor.jpg
 tags:
   - projects
 ---

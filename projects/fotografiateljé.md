@@ -27,8 +27,8 @@ en annorlunda fondvägg. I stället för ett målat landskap får trädgårdens
 grönska fylla bakgrunden. Framför dörren kan besökaren välja att antingen sätta sig i på stolen eller ställa sig snett bakom den.
  Fotografierna ställs sedan ut på Kajen i Köpmanholmen under augusti månad. 
 
-[• pdf om projektet "Fotografiateljé 80 år"](/static/projects/fotoatelje/info_proj.pdf)
-[• pdf artikel i ÖA](/static/img/projects/fotoatelje/artikel-allehanda.se.pdf)
+- [pdf om projektet "Fotografiateljé 80 år"](/static/projects/fotoatelje/info_proj.pdf)
+- [pdf artikel i ÖA](/static/img/projects/fotoatelje/artikel-allehanda.se.pdf)
 
 - ![fotoatelje](/static/img/projects/fotoatelje/kvinnaweb.jpg)
 - ![fotoatelje](/static/img/projects/fotoatelje/manweb.jpg)

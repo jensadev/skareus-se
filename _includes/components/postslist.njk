@@ -20,9 +20,9 @@
     </p>
     {% endif %}
     {% if post.data.featureimage %}
-    <figure>
+    <div class="feature">
         <img src="{{ post.data.featureimage }}" alt="{{ post.data.title }}">
-    </figure>
+    </div>
     {% endif %}
     </article>
 {% endfor %}
