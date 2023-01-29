@@ -334,6 +334,9 @@ EXCEPTIONS
   color: var(--color-primary-darker);
 }
 
+.post-list {
+  --region-space: var(--space-s-m);
+}
 .post-list h3 {
   color: var(--color-primary);
 }
@@ -347,12 +350,18 @@ EXCEPTIONS
   display: grid;
   place-content: center;
 }
-.post-list img {
-  --aspect: 16/9;
-  --mh: 15rem;
-  aspect-ratio: var(--aspect);
+.post-list ul:has(li > img) {
+  padding: 0;
+  list-style: none;
+  --min: 20ch;
+  --gap: var(--space-s-m);
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+.post-list ul:has(li > img) img {
+  aspect-ratio: 1/1;
   object-fit: cover;
-  max-height: var(--mh);
 }
 
 @media (min-width: 40rem) {

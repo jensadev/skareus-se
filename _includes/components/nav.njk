@@ -8,32 +8,7 @@
             {% if entry.url==page.url %}
             {% set postslist = collections[page.fileSlug] %}
             {% if page.fileSlug == "books" %}
-            {% set postslist = [
-            {
-                url: "#text-och-illustration",
-                data: {
-                    title: "Text och illustration"
-                }
-            },
-            {
-                url: "#grafisk-form",
-                data: {
-                  title: "Grafisk form"
-                }
-            },
-            {
-                url: "#datorprogram-för-barn-med-funktionsvariationer",
-                data: {
-                    title: "Datorprogram för barn med funktionsvariationer"
-                }
-            },
-            {
-                url: "#akademiskt-arbete",
-                data: {
-                    title: "Akademiskt arbete"
-                }
-            }
-            ] %}
+            {% set postslist = navdata.books %}
             {% endif %}
             <ul role="list">
                 {% for post in postslist %}

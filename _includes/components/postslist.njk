@@ -1,5 +1,5 @@
 {% for post in postslist %}
-<article{% if post.url==url %} data-current="current item" {% endif %} class="post-list flow">
+<article{% if post.url==url %} data-current="current item" {% endif %} class="post-list region flow">
     <h3>
         <a href="{{ post.url | url }}">
             {% if post.data.year %}

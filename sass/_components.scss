@@ -26,7 +26,9 @@
     }
 }
 
-.post-list {    h3 {
+.post-list {
+    --region-space: var(--space-s-m);
+    h3 {
         color: var(--color-primary);
         a {
             text-decoration: none;
@@ -39,12 +41,23 @@
         display: grid;
         place-content: center;
     }
-    img {
-        --aspect: 16/9;
-        --mh: 15rem;
-        aspect-ratio: var(--aspect);
-        object-fit: cover;
-        max-height: var(--mh);
+    ul {
+
+        &:has(li>img) {
+            padding: 0;
+            list-style: none;
+            --min: 20ch;
+            --gap: var(--space-s-m);
+        
+            display: grid;
+            grid-gap: var(--gap);
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+        
+            img {
+                aspect-ratio: 1/1;
+                object-fit: cover;
+            }
+        }
     }
 }
 

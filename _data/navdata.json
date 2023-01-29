@@ -1,0 +1,28 @@
+{
+    "books": [
+        {
+            "url": "#text-och-illustration",
+            "data": {
+                "title": "Text och illustration"
+            }
+        },
+        {
+            "url": "#grafisk-form",
+            "data": {
+                "title": "Grafisk form"
+            }
+        },
+        {
+            "url": "#datorprogram-för-barn-med-funktionsvariationer",
+            "data": {
+                "title": "Datorprogram för barn med funktionsvariationer"
+            }
+        },
+        {
+            "url": "#akademiskt-arbete",
+            "data": {
+                "title": "Akademiskt arbete"
+            }
+        }
+    ]
+}

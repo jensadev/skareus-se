@@ -33,6 +33,9 @@ module.exports = function(eleventyConfig) {
     // Or add them individually
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
+    eleventyConfig.addShortcode('year', () => {
+        return `${new Date().getFullYear()}`;
+    });
     // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
     // layout aliases! Say you have a bunch of existing content using
     // layout: post. If you don’t want to rewrite all of those values, just map

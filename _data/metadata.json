@@ -1,5 +1,13 @@
 {
-  "title": "Eva Skåreus",
-  "description": "Personal web for Eva Skåreus. Köpmanholmen Fabriksträdgården Tvättstugan Konst.",
-  "url": "https://sprightly-madeleine-6682a6.netlify.app"
+    "title": "Eva Skåreus",
+    "contact": {
+        "name": "Eva Skåreus",
+        "email": "eva@skareus.se"
+    },
+    "page-author": {
+        "name": "Jens Andreasson",
+        "email": "jensandreasson77@gmail.com"
+    },
+    "description": "Personal web for Eva Skåreus. Köpmanholmen Fabriksträdgården Tvättstugan Konst.",
+    "url": "https://sprightly-madeleine-6682a6.netlify.app"
 }
