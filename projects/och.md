@@ -10,6 +10,13 @@ tags:
   - projects
 ---
 - ![clowner](/static(img/projects/clowner/bal1typ.jpg)
+
+- ![rosor](/static(img/projects/rosor/amorosa.jpg)
+- ![rosor](/static(img/projects/rosor/barbarlik.jpg)
+- ![rosor](/static(img/projects/rosor/rosabort.jpg)
+- ![rosor](/static(img/projects/rosor//miafigl.jpg)
+- ![rosor](/static(img/projects/rosor/wallandream.jpg)
+
 - ![clowner](/static(img/projects/clowner/balans3.jpg)
 - ![clowner](/static(img/projects/clowner/balans3.jpg)
 - ![clowner](/static(img/projects/clowner/balans4.jpg)
