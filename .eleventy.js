@@ -63,7 +63,6 @@ module.exports = function(eleventyConfig) {
     // Add collection for projects
     eleventyConfig.addCollection('projects', collection => {
         return collection.getFilteredByGlob('projects/*.md').sort((a, b) => {
-            console.log(b)
             return b.data.year - a.data.year;
         });
     });
