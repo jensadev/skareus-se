@@ -25,7 +25,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Year", name: "year", widget: "string" }
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Feature image", name: "feature-image", widget: "image", "choose_url": true, "allow_multiple": false }
+      - { label: "Feature image", name: "featureimage", widget: "image", "choose_url": true, "allow_multiple": false }
       - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
