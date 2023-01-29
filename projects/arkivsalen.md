@@ -7,7 +7,7 @@ summary: "Arkivsalen är den andra salen i Köpmanholmens fabriksträdgård, det
   Kristensen och styrelsen i föreningen. I Arkivsalen har olika material knutna
   till fabriken samlats i ett stort rutmönster på marken. Arkivsalen blev möjlig
   att bygga tack vare bidrag från Kulturbryggan. "
-featureimage: /static/img/apelalle.jpeg
+featureimage: ""
 tags:
   - projects
 ---
