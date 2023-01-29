@@ -29,3 +29,5 @@ grönska fylla bakgrunden. Framför dörren kan besökaren välja att antingen s
 
 [• pdf om projektet "Fotografiateljé 80 år"](/static/projects/fotoatelje/info_proj.pdf)
 • pdf artikel i ÖA
+
+- fotoatelje/kvinnaweb.jpg
