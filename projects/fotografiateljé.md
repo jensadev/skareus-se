@@ -28,6 +28,8 @@ grönska fylla bakgrunden. Framför dörren kan besökaren välja att antingen s
  Fotografierna ställs sedan ut på Kajen i Köpmanholmen under augusti månad. 
 
 [• pdf om projektet "Fotografiateljé 80 år"](/static/projects/fotoatelje/info_proj.pdf)
-• pdf artikel i ÖA
+[• pdf artikel i ÖA](/static/img/projects/fotoatelje/artikel-allehanda.se.pdf)
 
-- fotoatelje/kvinnaweb.jpg
+* ![fotoatelje](/static/img/projects/fotoatelje/kvinnaweb.jpg)
+* ![fotoatelje](/static/img/projects/fotoatelje/manweb.jpg)
+* ![fotoatelje](/static/img/projects/fotoatelje/utst1web.jpg)
