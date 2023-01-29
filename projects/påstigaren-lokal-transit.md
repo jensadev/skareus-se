@@ -18,5 +18,5 @@ Väntkuren är inte viktigt i sig, en plats man passerar, men en plats som på e
 
 *Tack alla påstigare som ville delta i detta konstprojekt!*
 
-* [pdf om Påstigaren / Lokal transit](/static/pdf/info.pdf)
-* [artikel om projektet i Volym](https://www.rvn.se/sv/Sarprofil-delplatser/volym/reportage/)
+* [pdf om Påstigaren / Lokal transit](/static/pdf/påstigaren.pdf)
+* [artikel om projektet i Volym](http://arkiv.volym.info/Arkiv/Reportage/2013/EvaSkareus/EvaSkareus.html)
