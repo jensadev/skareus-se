@@ -1,7 +1,8 @@
 ---
 title: Köpmanholmens fabriksträdgård
 date: 2023-01-29T09:33:11.685Z
-year: "2015"
+year: 2015
+featureimage: /static/img/fabrikstrad.jpg
 summary: Fabriksträdgården är en permanent konstinstallation av växter, stockar,
   stenar, tegel, trä grus, m.m. Syftet med fabriksträdgården är att uppmärksamma
   området både för vad det varit och vad det kan bli – att gestalta en
@@ -9,7 +10,6 @@ summary: Fabriksträdgården är en permanent konstinstallation av växter, stoc
 tags:
   - projects
 ---
-![Fabriksträdgården](/img/fabrikstrad.jpg)
 
 Idén om Fabriksträdgården har vuxit fram under flera år och de skisser som idag finns omfattar delar av en besöksträdgård som sträcker sig utmed Bruksvägen, från Djuphamnsvägen till gamla Byskillnadsvägen ungefär mitt emot Tvättstugans västra gavel. Genom fabriksträdgården vill vi väcka nyfikenhet bland de som promenerar genom området, tankar om den verksamhet som här bedrevs och förståelse för den. Livet som fabriksarbetare var både farligt och giftigt, men samtidigt var fabriken förutsättningen för alla människor som bodde här och att Köpmanholmen byggdes och växte.
 

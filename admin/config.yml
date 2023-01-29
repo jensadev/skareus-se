@@ -23,7 +23,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Year", name: "year", widget: "number" }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Feature image", name: "featureimage", widget: "image", "choose_url": true, "allow_multiple": false }
       - { label: "Tags", name: "tags", widget: "list", default: ["projects"] }

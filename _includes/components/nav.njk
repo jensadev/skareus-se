@@ -6,9 +6,10 @@
             <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif %}>{{
                 entry.title }}</a>
             {% if entry.url==page.url %}
-            {% set postslist = collections[page.fileSlug] %}
             {% if page.fileSlug == "books" %}
-            {% set postslist = navdata.books %}
+                {% set postslist = navdata.books %}
+            {% else %}
+                {% set postslist = collections[page.fileSlug] %}
             {% endif %}
             <ul role="list">
                 {% for post in postslist %}
@@ -20,9 +21,9 @@
                         </time>
                         {% endif %}
                         {% if post.data.title %}
-                            {{ post.data.title }}
+                        {{ post.data.title }}
                         {% else %}
-                            Untitled
+                        Untitled
                         {% endif %}
                     </a>
                 </li>
