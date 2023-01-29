@@ -18,3 +18,7 @@ Tankarna bakom projektet var att uppmärksamma industriområdet genom ett platss
 Projektet genomfördes med stöd från Nätterlundsstiftelsen, MIVA och Bjästa Handelsträdgård.
 
 ![](/static/img/projects/heart/heart1_stor.jpg)
+
+![](/static/img/projects/heart/plant1_stor.jpg)
+
+![](/static/img/projects/heart/plant2_stor.jpg)
