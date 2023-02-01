@@ -6,7 +6,7 @@ summary: |-
   I Köpmanholmens tvättstuga visades i stora bilder en gestaltning av 
   tvättstugors historik tillsammans med bilder och objekt av konstnärerna
   Mats de Vahl och Kirstie Ekelund
-featureimage: /static/img/bild5.jpg
+featureimage: /static/img/pr.jpg
 tags:
   - projects
 ---
