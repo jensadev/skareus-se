@@ -2,11 +2,11 @@
 title: Köpmanholmens fabriksträdgård
 date: 2023-01-29T09:33:11.685Z
 year: 2015
+summary: Sommaren 2015 började bygget av Fabriksträdgården. Det är en permanent
+  konstinstallation av växter, stockar, stenar, tegel, trä grus, m.m. Syftet med
+  fabriksträdgården är att uppmärksamma området både för vad det varit och vad
+  det kan bli – att gestalta en syntetisering av gammalt och nytt.
 featureimage: /static/img/fabrikstrad.jpg
-summary: Fabriksträdgården är en permanent konstinstallation av växter, stockar,
-  stenar, tegel, trä grus, m.m. Syftet med fabriksträdgården är att uppmärksamma
-  området både för vad det varit och vad det kan bli – att gestalta en
-  syntetisering av gammalt och nytt.
 tags:
   - projects
 ---
