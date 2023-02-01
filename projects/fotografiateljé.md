@@ -9,6 +9,7 @@ summary: Under 2009 fyllde den gamla fotografiateljén i Köpmanholmen 80 år. F
   av grönska och balustrader samt en obligatorisk stol framför. Inbjudan
   resulterade i 53 fotografier som visades på restaurang Kajen.
 feature-image: /static/img/uteatelje_stor.jpg
+featureimage: /static/img/005.jpg
 tags:
   - projects
 ---
