@@ -4,7 +4,7 @@ date: 2023-01-29T09:56:26.846Z
 year: 2021
 summary: |-
   I Köpmanholmens tvättstuga visades i stora bilder en gestaltning av 
-  tvättstugors historik tillsammans med bilder av konstnärerna
+  tvättstugors historik tillsammans med bilder och objekt av konstnärerna
   Mats de Vahl och Kirstie Ekelund
 featureimage: /static/img/bild5.jpg
 tags:
