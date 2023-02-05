@@ -1,7 +1,7 @@
 ---
 title: Fotografiateljé
 date: 2023-01-29T15:12:32.349Z
-year: "2009"
+year: 2009
 summary: Under 2009 fyllde den gamla fotografiateljén i Köpmanholmen 80 år. För
   att fira det bjöd jag in Holmenborna under fyra dagar i juli till en
   friluftsateljé i trädgården. En stol, en innerdörr och trädgårdens grönska

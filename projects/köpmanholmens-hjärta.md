@@ -1,7 +1,7 @@
 ---
 title: Köpmanholmens hjärta
 date: 2023-01-29T14:21:07.625Z
-year: "2011"
+year: 2011
 summary: Under sommaren 2011 anlade jag tillsammans med vänner och
   Köpmanholmsbor en platsspecifik konstinstallation, en dahliarabatt i form av
   ett hjärta i Köpmanholmens gamla fabriksområde.

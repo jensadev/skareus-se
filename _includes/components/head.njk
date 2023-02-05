@@ -1,14 +1,22 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ renderData.title or title or metadata.title }}</title>
-  <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
-  {% set css %}
-    {% include "assets/css/style.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
-  {% set js %}
-    {% include "assets/js/inline.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RZMXMC5GVE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RZMXMC5GVE');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
+    {% set css %}
+        {% include "assets/css/style.css" %}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+    {% set js %}
+        {% include "assets/js/inline.js" %}
+    {% endset %}
+    <script>{{ js | jsmin | safe }}</script>
 </head>

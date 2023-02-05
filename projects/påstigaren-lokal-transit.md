@@ -1,7 +1,7 @@
 ---
 title: Påstigaren / Lokal transit
 date: 2023-01-29T10:21:30.179Z
-year: "2013"
+year: 2013
 summary: En dag i juli 2013, när sommaren var som bäst och solen värmde gott,
   stod människor i kö på kajen i Köpmanholmen. De var tillfälliga besökare i
   skärgårdsbåtarnas väntkur. Några var långvägsresenärer, från Tjeckien eller
