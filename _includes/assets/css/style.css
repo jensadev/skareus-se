@@ -217,7 +217,8 @@ main:focus {
 }
 
 img {
-  height: 100%;
+  height: auto;
+  width: 100%;
   border-radius: var(--border-radius);
 }
 
@@ -462,6 +463,11 @@ EXCEPTIONS
 }
 .project ul:has(li > p > img, li > img) img {
   cursor: pointer;
+}
+
+.hero-img {
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
