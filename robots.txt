@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skareus.se/sitemap.xml
+Sitemap: https://www.skareus.se/sitemap.xml
