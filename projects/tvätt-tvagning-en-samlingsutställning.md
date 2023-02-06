@@ -20,7 +20,10 @@ Utställningen Tvätt & Tvagning gestaltar, inspirerar, belyser och leker med de
 
 ![](/static/img/vy2.jpg)
 
-I utställningen Tvätt & Tvagning visas både en historisk och fri konstnärlig tolkning av temat där bland annat framväxten av det moderna Sverige, moraliskt och hygieniskt kan beskådas. På bilderna ovan syns skulpturer av mats de Vahl och bilder av Kirstie Ekelund.
+I utställningen Tvätt & Tvagning visas både en historisk och fri konstnärlig tolkning av temat där bland annat framväxten av det moderna Sverige, moraliskt och hygieniskt kan beskådas. På bilderna ovan syns skulpturer av Mats de Vahl och bilder av Kirstie Ekelund.
 
+I samband med utställningen skrev jag en historik över tvättstugor. Skriften kan beställas från mig eller inhandlas på Hembygdsmuseet i Köpmanholmen.
 
-Utställningen visas i Köpmanholmens gamla tvättstuga, på Bruksvägen 27, allt för att uppmärksamma tvättstugor och badinrättningar, då som nu.
+![](/static/img/skriften.jpg)
+
+Utställningen visades i Köpmanholmens gamla tvättstuga, på Bruksvägen 27, allt för att uppmärksamma tvättstugor och badinrättningar, då som nu.
