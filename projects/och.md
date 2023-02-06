@@ -9,19 +9,15 @@ featureimage: /static/img/och.jpg
 tags:
   - projects
 ---
-
-- ![clowner](/static/img/projects/clowner/bal1typ.jpg)
-
-- ![rosor](/static/img/projects/rosor/amorosa.jpg)
-- ![rosor](/static/img/projects/rosor/barbarlik.jpg)
-- ![rosor](/static/img/projects/rosor/rosabort.jpg)
-- ![rosor](/static/img/projects/rosor//miafigl.jpg)
-- ![rosor](/static/img/projects/rosor/wallandream.jpg)
-
-- ![clowner](/static/img/projects/clowner/balans3.jpg)
-- ![clowner](/static/img/projects/clowner/balans3.jpg)
-- ![clowner](/static/img/projects/clowner/balans4.jpg)
-- ![clowner](/static/img/projects/clowner/balans5.jpg)
-- ![clowner](/static/img/projects/clowner/balans6.jpg)
-- ![clowner](/static/img/projects/clowner/balans22.jpg)
-
+* ![clowner](/static/img/projects/clowner/bal1typ.jpg)
+* ![rosor](/static/img/projects/rosor/amorosa.jpg)
+* ![rosor](/static/img/projects/rosor/barbarlik.jpg)
+* ![rosor](/static/img/projects/rosor/rosabort.jpg)
+* ![rosor](/static/img/projects/rosor//miafigl.jpg)
+* ![rosor](/static/img/projects/rosor/wallandream.jpg)
+* ![clowner](/static/img/projects/clowner/balans3.jpg)
+* ![clowner]()
+* ![clowner](/static/img/projects/clowner/balans4.jpg)
+* ![clowner](/static/img/projects/clowner/balans5.jpg)
+* ![clowner](/static/img/projects/clowner/balans6.jpg)
+* ![clowner](/static/img/projects/clowner/balans22.jpg)
