@@ -23,7 +23,7 @@ Läs mer om utställningen här, [tidningsartikel från ÖA, pdf format](/static
 
   ![Foto tvättstugan](/static/img/projects/hanger/4_4.jpg)
 
-  Installation foto, skulptur Lats Ahlström.
+  Installation foto, skulptur Lars Ahlström.
 
   ![Bild](/static/img/projects/hanger/4_5.jpg)
 * ![Bild](/static/img/projects/hanger/4_6_1.jpg)
