@@ -7,4 +7,10 @@ featureimage: /static/img/mannaminne2.jpg
 tags:
   - projects
 ---
+Sommaren 2022 visades på Mannaminne den historiska delen av "Tvätt & Tvagning" som sommaren 2021 visats i Köpmanholmen. På övervåningen i ett eget litet hus, högt upp på Mannaminnes område, satt bilderna uppsatta.
+
+![](/static/img/manna6.jpg)
+
+![](/static/img/manna5.jpg)
+
 ![](/static/img/mannaminne1.jpg)
