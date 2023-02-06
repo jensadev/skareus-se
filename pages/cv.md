@@ -13,7 +13,7 @@ eleventyNavigation:
 * Handarbetets Vänner
 * Tollare Folkhögskola
 * Teckningslärarutbildning i Umeå
-* Bildterapeut, speci-stutbildning i Umeå
+* Bildterapeut, specialistutbildning i Umeå
 * Filosofie doktorsexamen i pedagogiskt arbete vid Institutionen för estetiska ämnen, Umeå universitet
 
 ## Utställningar
@@ -29,7 +29,8 @@ eleventyNavigation:
 * BySide Sidewalk, -99
 * Norrbyskär 2000
 * Köpmanholmen 2009, 2013, 2016, 2019, 2021
-* öKKV/Galleri Lokomotiv/Örnsköldsviks museum, 2010, 2020
+* Örnsköldsviks museum, 2010, 2020
+* öKKV/Galleri Lokomotiv/medlemsutställning 2014-2021
 * Mannaminne, 2022
 
 ## Representerad
