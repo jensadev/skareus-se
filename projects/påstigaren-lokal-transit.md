@@ -12,9 +12,15 @@ featureimage: /static/img/projects/transit/kur_stor.jpg
 tags:
   - projects
 ---
+![](/static/img/väntkur1.jpg)
+
 För att kunna ta båten, till Trysunda, Strängöarna eller Ulvön, måste du som passagerare gå genom väntkuren, dvs för en kort stund vara i transit. Statistiken säger att ca 50.000 människor passerar där varje år. 50.000 i transit på Köpmanholmens kaj…
 
+![](/static/img/väntkur2.jpg)
+
 Väntkuren är inte viktigt i sig, en plats man passerar, men en plats som på ett eller annat sätt påverkar människors identitet. Den utgör en gräns att passera inom vilken man till exempel går från bilresenär till båtresenär, från stadsbo till tillfällig skärgårdsbo, från besökare till hemmahörande. Man är i transit, ska bara genom, på väg bort, någon annanstans. Väntkuren är enbart namngivet som kur på en skylt inne i byggnaden. över ingången står det ”Påstigande”. När du går in i byggnaden tillhör du alltså kategorin ”påstigande” oavsett om du tänker stiga på båten eller inte.
+
+![](/static/img/two.jpg)
 
 *Tack alla påstigare som ville delta i detta konstprojekt!*
 
