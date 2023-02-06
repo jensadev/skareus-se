@@ -9,11 +9,21 @@ featureimage: /static/img/projects/hanger/4_1.jpg
 tags:
   - projects
 ---
+(Här hänger arrangören ... :-)
+
 Läs mer om utställningen här, [tidningsartikel från ÖA, pdf format](/static/pdf/art4öa.pdf).
 
 * ![Foto tvättstugan](/static/img/projects/hanger/4_2.jpg)
-* ![Foto tvättstugan](/static/img/projects/hanger/4_3.jpg)
-* ![Foto tvättstugan](/static/img/projects/hanger/4_4.jpg)
+
+  Interiör. I fonden bilder av Eva Skåreus
+
+  ![Foto tvättstugan](/static/img/projects/hanger/4_3.jpg)
+
+  Interiör stora rummet
+
+  ![Foto tvättstugan](/static/img/projects/hanger/4_4.jpg)
+
+  Installation foto, skulptur Lats Ahlström.
 
   ![Bild](/static/img/projects/hanger/4_5.jpg)
 * ![Bild](/static/img/projects/hanger/4_6_1.jpg)
