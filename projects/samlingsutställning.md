@@ -13,6 +13,8 @@ Interiör från utställningen i Tvättstugan. Akvarell av Eva Skåreus
 
 ![artikel i ÖA](/static/img/artikel.jpg "artikel i ÖA")
 
+Artikel av Katarina Östholm i ÖA
+
 ![](/static/img/13.jpg)
 
 Under vernissaget spelade basisten Rickard Jokela. I bakgrunden en bild av Bill Olson.
