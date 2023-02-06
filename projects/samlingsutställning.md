@@ -11,11 +11,7 @@ tags:
 ---
 Interiör från utställningen i Tvättstugan. Akvarell av Eva Skåreus
 
-![](/static/img/artikel.jpg)
-
-
-
-
+![artikel i ÖA](/static/img/artikel.jpg "artikel i ÖA")
 
 ![](/static/img/13.jpg)
 
